@@ -19,7 +19,7 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     PORT_SERVER = int(data[1])
 
 while True:
-    print("Digite o CPF para ser validado: ")
+    print("Digite o CPF, sem pontos ou traços, para ser validado: (ex.: 12145498810)")
     cpf = input()    
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.connect((HOST_SERVER, PORT_SERVER))
@@ -28,4 +28,5 @@ while True:
         data = s.recv(1024)
         
 
-    print('Received:', repr(data.decode()))
+    print('Resultado:', repr(data.decode()))
+    print('\n')
