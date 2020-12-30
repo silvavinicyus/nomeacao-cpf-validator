@@ -1,6 +1,6 @@
 # nomeacao-cpf-validator
 
-    PROJETO: CALCULADORA DE ESTATÍSTICA DESCRITIVA
+    PROJETO: CPF COM FUNÇÃO DE NOMEAÇÃO
 
     -- INSTRUÇÕES PARA FUNCIONAR O CÓDIGO:
         -- Para rodar o projeto é necessário ter instalado:
